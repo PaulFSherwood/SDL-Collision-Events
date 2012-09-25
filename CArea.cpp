@@ -22,6 +22,9 @@ bool CArea::OnLoad(char* File) {
     char TilesetFile[255];
 
     fscanf(FileHandle, "%s\n", TilesetFile);
+    printf("----------\n");
+    printf("FileHandle: %d\n", FileHandle);
+    printf("TilesetFile: %s\n", TilesetFile);
 
     if((Surf_Tileset = CSurface::OnLoad(TilesetFile)) == false) {
         fclose(FileHandle);
@@ -30,12 +33,18 @@ bool CArea::OnLoad(char* File) {
     }
 
     fscanf(FileHandle, "%d\n", &AreaSize);
+    printf("----------\n");
+    printf("FileHandle: %d\n", FileHandle);
+    printf("AreaSize: %d\n", AreaSize);
 
     for(int X = 0;X < AreaSize;X++) {
         for(int Y = 0;Y < AreaSize;Y++) {
             char MapFile[255];
 
             fscanf(FileHandle, "%s ", MapFile);
+            printf("----------\n");
+            printf("FileHandle: %d\n", FileHandle);
+            printf("MapFile: %s\n", MapFile);
 
             CMap tempMap;
             if(tempMap.OnLoad(MapFile) == false) {

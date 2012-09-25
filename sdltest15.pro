@@ -42,5 +42,9 @@ OTHER_FILES += \
     myimage.bmp \
     gfx/x.bmp \
     gfx/o.bmp \
-    README.txt
+    README.txt \
+    tilesets/1.png \
+    maps/1.map \
+    maps/1.area \
+    yoshi.png
 

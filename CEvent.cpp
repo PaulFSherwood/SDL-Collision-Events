@@ -102,6 +102,7 @@ void CEvent::OnEvent(SDL_Event* Event) {
             OnJoyHat(Event->jhat.which,Event->jhat.hat,Event->jhat.value);
             break;
         }
+
         case SDL_JOYBUTTONDOWN: {
             OnJoyButtonDown(Event->jbutton.which,Event->jbutton.button);
             break;
