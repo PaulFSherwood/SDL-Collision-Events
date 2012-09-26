@@ -7,11 +7,6 @@ LIBS += -L/usr/local/lib -lSDL -lSDLmain -lSDL_image
 SOURCES += \
     CSurface.cpp \
     CEvent.cpp \
-    CApp_OnRender.cpp \
-    CApp_OnLoop.cpp \
-    CApp_OnInit.cpp \
-    CApp_OnEvent.cpp \
-    CApp_OnCleanup.cpp \
     CApp.cpp \
     CAnimation.cpp \
     CArea.cpp \
@@ -21,7 +16,8 @@ SOURCES += \
     CFPS.cpp \
     CMap.cpp \
     CPlayer.cpp \
-    CTile.cpp
+    CTile.cpp \
+    main.cpp
 
 HEADERS += \
     CSurface.h \
