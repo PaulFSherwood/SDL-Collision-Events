@@ -4,7 +4,7 @@
 #ifndef _CANIMATION_H_
     #define _CANIMATION_H_
 
-#include <SDL/SDL.h>
+#include <SDL2/SDL.h>
 
 //==============================================================================
 class CAnimation {

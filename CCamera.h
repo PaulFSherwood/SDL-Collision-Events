@@ -2,7 +2,7 @@
 #ifndef _CCAMERA_H_
     #define _CCAMERA_H_
 
-#include <SDL/SDL.h>
+#include <SDL2/SDL.h>
 
 #include "Define.h"
 
