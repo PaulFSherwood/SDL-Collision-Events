@@ -1,3 +1,10 @@
+INCLUDEPATH += C:\SDL2-2.0.5\i686-w64-mingw32\include
+LIBS += -L"C:\SDL2-2.0.1\i686-w64-mingw32\lib" \
+-lmingw32\
+-lSDL2main\
+-lSDL2\
+
+
 TEMPLATE = app
 CONFIG += console
 CONFIG -= qt
