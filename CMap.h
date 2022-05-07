@@ -2,7 +2,7 @@
 #ifndef _CMAP_H_
     #define _CMAP_H_
 
-#include <SDL/SDL.h>
+#include <SDL2/SDL.h>
 #include <vector>
 
 #include "CTile.h"

@@ -4,7 +4,7 @@
 #ifndef _CFPS_H_
     #define _CFPS_H_
 
-#include <SDL/SDL.h>
+#include <SDL2/SDL.h>
 
 //==============================================================================
 class CFPS {
