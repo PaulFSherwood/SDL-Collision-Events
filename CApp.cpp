@@ -18,17 +18,17 @@ bool CApp::OnInit() {
         return false;
     }
 
-    if(CArea::AreaControl.OnLoad("./maps/1.area") == false) {
+    if(CArea::AreaControl.OnLoad("maps/1.area") == false) {
         return false;
     }
 
     SDL_EnableKeyRepeat(1, SDL_DEFAULT_REPEAT_INTERVAL / 3);
 
-    if(Player.OnLoad("yoshi.png", 64, 64, 8) == false) {
+    if(Player.OnLoad("tilesets/yoshi.png", 64, 64, 8) == false) {
         return false;
     }
 
-    if(Player2.OnLoad("yoshi.png", 64, 64, 8) == false) {
+    if(Player2.OnLoad("tilesets/yoshi.png", 64, 64, 8) == false) {
         return false;
     }
 
